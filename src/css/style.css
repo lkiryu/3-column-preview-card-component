@@ -48,10 +48,12 @@ body {
 }
 
 .button {
+    border: 2px solid hsl(0, 0%, 95%);
     background-color: hsl(0, 0%, 95%);
     padding: 15px 25px;
     border-radius: 30px;
     font-weight: 500;
+    transition: 0.3s ease-in-out;
 }
 
 .sedan {
@@ -78,4 +80,12 @@ body {
 
 .luxury .button {
     color: hsl(179, 100%, 13%);
+}
+
+.sedan .button:hover,
+.suvs .button:hover,
+.luxury .button:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
 }
