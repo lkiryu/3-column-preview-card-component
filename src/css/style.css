@@ -16,7 +16,6 @@ body {
 
 .cards {
     display: flex;
-    border-radius: 10px;
 }
 
 .card {

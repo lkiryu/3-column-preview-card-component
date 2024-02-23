@@ -1,0 +1,31 @@
+@media(max-width:768px){
+    .container {
+        height: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+
+    .card {
+        height: 100%;
+        padding: 35px;
+    }
+
+    .car-image, .car-name {
+        margin-bottom: 20px;
+    }
+
+    .car-description {
+        margin-bottom: 30px;
+    }
+
+    .sedan {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
